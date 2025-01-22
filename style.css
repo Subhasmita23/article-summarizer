@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.noto-sans-hatran-regular {
+    font-family: "Noto Sans Hatran", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.roboto-regular-jersey {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.jersey-15-regular {              /*this is for font change in paragraph*/
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ccd5ae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;  /*this is for gap in between rows*/
+}
+
+.summarize-article{
+    height: 250px;
+    width: 500px;
+    /* border: 1px solid black; */
+    overflow-x: hidden;   /*this is for paragraph overflow*/
+}
+
+.heading{
+    margin-bottom: 30px;
+}
+
+.summary{
+    font-size: 20px;
+    text-align: justify;
+}
+
+#url{
+    height: 25px;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn{
+    height: 25px;
+    width: 40px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    background-color: #ccd5ae;
+    color: #666;
+}
+
+:hover.btn {
+    background-color: black;
+    color: white;
+}
